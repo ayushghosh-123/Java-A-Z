@@ -1,0 +1,3 @@
+method - when any function call through the class object
+
+function - whent function call directly
