@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Function_o4 {
+public class Function_04 {
     public static int factorial (int num) {
         if (num < 0) {
             System.out.println("it is invalid");
