@@ -1,3 +1,3 @@
-# java dsa and Projects
+# java Dsa series
 
-it have some good projects on java and some coree concept on the java programming language.
+it have cover al  topics in my DSA journey of java 
