@@ -12,12 +12,21 @@ public class Array_6 {
 
         int[][] arr = new int[rows][columns];
 
-        
+
         System.out.println("Enter the elements of the array: ");
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
                 arr[i][j] = sc.nextInt();
             }
+        }
+
+        sc.close();
+        System.out.println("The array is: ");
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
         }
     }
 }
