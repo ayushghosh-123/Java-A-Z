@@ -1,0 +1,43 @@
+operator
+Symbol that tell compile to perform some operation
+
+Arithmatic operator
+=====================================
++ (Addition)
+- (Subtraction)
+* (Multiplication)
+/ (Division)
+% (Modulus/ modulo)
+=====================================
+
+Unary operator
+=====================================
+++ (Increment)
+-- (Decrement)
+
+=====================================
+
+preincrement - increment the value before using it(++a)
+postincrement - increment the value after using it(a++)
+predecrement - decrement the value before using it(--a)
+postdecrement - decrement the value after using it(a--)
+
+=====================================
+
+RELATIONAL operator
+=====================================
+> (Greater than)
+< (Less than)
+>= (Greater than or equal to)
+<= (Less than or equal to)
+== (Equal to)
+!= (Not equal to)
+=====================================
+
+Logical operation
+=====================================
+&& (Logical and)
+|| (Logical or)
+! (Logical not)
+=====================================
+

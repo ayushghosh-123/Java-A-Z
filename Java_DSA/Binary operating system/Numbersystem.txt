@@ -1,0 +1,91 @@
+Binary Number System
+- Binary Number System is a base-2 number system that uses only two digits: 0 and
+1. It is used in computers and other digital devices to represent information.  
+- The binary number system is a positional notation system, which means that the value of a number is
+determined by the position of the digits. The positions are powers of 2, starting with 
+2^0 = 1, 2^1 = 2, 2^2 =4
+- Binary numbers are represented using the digits 0 and 1. The digits are arranged in a
+sequence, with each digit representing a power of 2. The rightmost digit represents 2^
+0, the next digit to the left represents 2^1, and so on.
+
+========================================================================================================================
+
+Octal Number System
+- Octal Number System is a base-8 number system that uses eight digits: 0,
+1, 2, 3, 4, 5, 6, and 7
+- The octal number system is a positional notation system, which means that the value of a number
+is determined by the position of the digits. The positions are powers of 8, starting with
+8^0 = 1, 8^1 = 8, 8^2 =64
+- Octal numbers are represented using the digits 0 through 7. The digits are arranged in
+a sequence, with each digit representing a power of 8. The rightmost digit represents 8
+0, the next digit to the left represents 8^1, and so on.
+
+========================================================================================================================
+
+Hexa Decimal Number System
+- Hexadecimal Number System is a base-16 number system that uses 16 digits: 0
+1, 2, 3, 4, 5, 6, 7,
+8, 9, A, B, C, D, E, and F
+- The hexadecimal number system is a positional notation system, which means that the value of a number
+is determined by the position of the digits. The positions are powers of 16, starting with
+16^0 = 1, 16^1 = 16, 16^2 =32
+- Hexadecimal numbers are represented using the digits 0 through 9 and the letters A through F
+The digits are arranged in a sequence, with each digit representing a power of 16. The right
+most digit represents 16^0, the next digit to the left represents 16^1,
+and so on.
+
+===============================================================================================================================
+
+Binary operator
+- Binary operator is a mathematical operator that takes two operands and performs a specific operation on them. Examples
+of binary operators include addition (+), subtraction (-), multiplication (*), and division (/).
+- Binary operators are used in arithmetic expressions to perform operations on numbers. They are also used in
+logical expressions to perform operations on boolean values.
+- Binary operators can be classified into several types, including arithmetic operators, comparison operators, logical operators,
+and assignment operators.
+
+& Binary AND operator
+| Binary OR operator
+^ Binary XOR operator
+~ Binary NOT operator
+
+============================================================================================================================
+
+logical vs bitwise operators
+- Logical operators are used to perform operations on boolean values. They are used to combine multiple conditions in
+a conditional statement. Examples of logical operators include AND, OR, and NOT.
+- Bitwise operators are used to perform operations on binary numbers. They are used to manipulate the bits
+of a binary number. Examples of bitwise operators include AND, OR, XOR, and NOT.
+
+==============================================================================================================================
+
+<< (Binary Left shift)
+>> (Binary Right shift)
+
+- Binary left shift operator (<<) shifts the bits of a binary number to the left by a
+specified number of places. The left shift operator is used to multiply a binary number by a power of
+2.
+
+=============================================================================================================================
+Assignment Operators
+
+- Assignment operators are used to assign a value to a variable. They are used to store a values
+in a variable. Examples of assignment operators include =, +=, -=, *=, /=, %=
+- Assignment operators can be classified into several types, including simple assignment operators, compound
+assignment operators, and augmented assignment operators.
+
+a *= b
+a = a * b
+
+a += b
+a = a + b
+
+a -= b
+a = a - b
+
+a /= b
+a = a / b
+
+a %= b
+a = a % b
+================================================================================================================================
