@@ -1,3 +1,10 @@
 method - when any function call through the class object
 
 function - whent function call directly
+
+java only pass by value not pass by referance.
+
+Scope 
+any variable mention in one function it wiill be use another function 
+
+accumulator(in oops )
