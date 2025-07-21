@@ -1,4 +1,4 @@
-package variable;
+import java.util.*;
 
 public class variable {
     public static void main(String[] args) {
