@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Introduction",
+            "request": "launch",
+            "mainClass": "contructor.Introduction",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
+            "name": "Introduction",
+            "request": "launch",
+            "mainClass": "Introduction",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
