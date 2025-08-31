@@ -119,4 +119,53 @@ class Point {
 }
 ```
 
+## New keyword - 
 
+The `new` keyword in Java is an operator used to **create an object** from a class. It's an essential part of object-oriented programming in Java, as it allocates memory for a new object and returns a reference to that object.
+
+### 🛠️ How it Works
+---
+
+The `new` keyword performs three main actions in a single expression:
+
+1.  `**Memory Allocation**`: It allocates the required amount of memory on the heap for the new object. This memory space will store the object's instance variables.
+
+2.  `**Constructor Call**` : After allocating memory, the `new` keyword calls the class's constructor. The constructor's job is to initialize the object's `instance variables` with their default values or with the values provided in the constructor's arguments.
+
+3.  ``**Reference Return**`: The `new` operator returns the memory address (a reference) of the newly created object. This reference can then be assigned to a variable of the class type.
+
+### Example
+
+Let's use a simple `Person` class to illustrate this:
+
+```java
+class Person {
+    String name;
+    int age;
+
+    // Constructor to initialize the object
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+        System.out.println("A new Person object has been created.");
+    }
+
+    public void sayHello() {
+        System.out.println("Hello, my name is  Ayush Ghosh");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Person Ayush = new Person("Ayush Ghosh", 21);
+        Ayush.sayHello();
+    }
+}
+```
+
+**Output:**
+
+```
+A new Person object has been created.
+Hello, my name is Ayush Ghosh .
+```

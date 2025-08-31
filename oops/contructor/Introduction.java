@@ -1,4 +1,5 @@
 package contructor;
+import java.util.*;
 
 public class Introduction {
     public static void main(String[] args) {
@@ -17,6 +18,10 @@ public class Introduction {
         // Use copy constructor
         Student random = new Student(kunal);
         System.out.println(random.name); // prints "Kunal"
+
+        // constructor call another constructor
+        Student random2 = new Student();
+        System.out.println(random2.name);
     }
 
     static class Student {
@@ -32,11 +37,11 @@ public class Introduction {
             this.name = newName;
         }
 
-        Student() {
-            this.rno = 2;
-            this.name = "ayush";
-            this.marks = 9.5;
-        }
+        // Student() {
+        //     this.rno = 2;
+        //     this.name = "ayush";
+        //     this.marks = 9.5;
+        // }
 
         Student(int rno, String name, double marks) {
             this.rno = rno;
@@ -50,6 +55,12 @@ public class Introduction {
             this.name = other.name;
             this.rno = other.rno;
             this.marks = other.marks;
+        }
+
+        Student(){
+            // this is how you call a constructor from another constructor
+            // internaally: new Students(13, "default person", 100.0f)
+            this (13, "default person", 1000.0f);
         }
     }
 }
