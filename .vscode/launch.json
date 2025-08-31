@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BankMain",
+            "request": "launch",
+            "mainClass": "BankMain",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
             "name": "Introduction",
             "request": "launch",
             "mainClass": "contructor.Introduction",
