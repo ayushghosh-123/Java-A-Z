@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "man",
+            "request": "launch",
+            "mainClass": "javastatic.man",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
+            "name": "javaPackage",
+            "request": "launch",
+            "mainClass": "packages.packagetwo.javaPackage",
+            "projectName": "Java_dca6b6bd"
+        },
+        {
+            "type": "java",
             "name": "wrapperExample",
             "request": "launch",
             "mainClass": "contructor.wrapperExample",

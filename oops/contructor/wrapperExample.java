@@ -12,10 +12,13 @@ public class wrapperExample {
 
         // using final key word
         final int bonus = 2;
-        // bonus = 3; --> gives you error  
+        // bonus = 3; --> gives you error 
+        
+        A obj = new A("bhuvan ");
+        System.out.println(obj);
 
-        final A ayush = new A("Ayush");
-        ayush.name = "other name";
+        // final A ayush = new A("Ayush");
+        // ayush.name = "other name";
 
         // ayush = new A("new object"); --> when a non primitive is final , you cannot ressign it.
     
@@ -29,7 +32,7 @@ public class wrapperExample {
 
     static class A{
         // always intialize while declaring 
-        final int num = 10;
+        int num = 10;
         String name;
 
         public A(String name){
