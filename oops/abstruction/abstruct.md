@@ -1,9 +1,3 @@
-# Abstruction
-
-Perfect 👍 For a **10 marks university exam answer**, you need **definition + explanation + advantages + example + output**.
-Here’s a complete yet exam-friendly version 👇
-
-
 # **Abstraction in Java**
 
 **Definition:**
