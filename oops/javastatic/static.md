@@ -1,2 +1,2 @@
 # static
- static means youcan youe that thing or method don't introduc4 object iof those thing .
+ static means youcan youe that thing or method don't introduce object iof those thing . it' belong to the class not the object.
