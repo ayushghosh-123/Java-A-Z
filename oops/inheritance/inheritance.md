@@ -18,14 +18,42 @@ class Child extends Parent {
     // additional properties and methods
 }
 ```
+---
 
-## **Types of Inheritance in Java**
+## :alarm_clock: **Types of Inheritance in Java**
 
-1. **Single Inheritance** – One child class inherits from one parent class.
-2. **Multilevel Inheritance** – A child inherits from a parent, which in turn inherits from another parent.
-3. **Hierarchical Inheritance** – Multiple child classes inherit from the same parent.
-   ❌ **Multiple inheritance (with classes)** is not supported in Java (to avoid ambiguity), but it can be achieved using **interfaces**.
+1. **Single Inheritance**
 
+   * One class inherits from another single class.
+   * Example: `class Dog extends Animal`.
+
+2. **Multilevel Inheritance**
+
+   * A chain of inheritance where a class is derived from another class, which itself is derived from another class.
+   * Example: `class Puppy extends Dog extends Animal`.
+
+3. **Hierarchical Inheritance**
+
+   * Multiple classes inherit from the same parent class.
+   * Example: `class Dog extends Animal`, `class Cat extends Animal`.
+
+4. **Multiple Inheritance (Through Interfaces only)**
+
+   * Java does not support multiple inheritance with classes (to avoid ambiguity called *diamond problem*).
+   * But it supports it using **interfaces**.
+   * Example: `class SmartPhone implements Camera, MusicPlayer`.
+
+---
+
+## :alien: **Diagram (for clarity in exams)**
+
+```
+          Animal
+         /  |   \
+     Dog   Cat  Cow    <-- Hierarchical Inheritance
+          ↑
+        Mammal         <-- Multilevel Inheritance
+```
 ---
 
 ## **Example: Single Inheritance**

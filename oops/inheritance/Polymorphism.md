@@ -1,10 +1,10 @@
-### **Polymorphism**
+### ⭐ **Polymorphism**
 Polymorphism is one of the important features of Object-Oriented Programming (OOP).
 The word polymorphism means *“many forms”*. It allows the same operation or function name to perform different tasks depending on the context. In other words, a single method can have multiple implementations, and the decision of which implementation to use depends on whether it is compile-time or runtime.
 
 ---
 
-### **Types of Polymorphism**
+### ✈️ **Types of Polymorphism**
 
 1. **Compile-time Polymorphism (Static Polymorphism):**
 
