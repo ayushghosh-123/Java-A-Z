@@ -2,9 +2,10 @@
 
 Encapsulation in Java is one of the core concepts of **Object-Oriented Programming (OOP)**.
 
-It means **wrapping (or bundling) the data (variables) and the methods (functions) that operate on that data into a single unit (class)**, while restricting direct access to some of the object’s components.
+It means **wrapping  the data (variables) and the methods (functions) that operate on that data into a single unit (class)**, while restricting direct access to some of the object’s components.
 
 👉 In simple words:
+
 Encapsulation is about **hiding the internal details** of how an object works and only exposing what is necessary through methods (getters/setters).
 
 

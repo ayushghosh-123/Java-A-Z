@@ -9,12 +9,13 @@ Object-Oriented Programming (OOP) is a way of writing computer programs that use
 ### 👍 Key Concepts for a OOPS
 
 
-* `**Encapsulation** `: This means bundling data and the functions that work on that data into a single unit. It's like putting all the controls for a TV into one remote; you don't need to know how the inside of the TV works to use it.
+* `Encapsulation`: This means bundling data and the functions that work on that data into a single unit. It's like putting all the controls for a TV into one remote; you don't need to know how the inside of the TV works to use it.
 
-* `**Inheritance**` : This allows a new "child" class to get features from an existing "parent" class. For example, a "Dog" class can **inherit** from a "Mammal" class, automatically getting features like having a backbone without having to be reprogrammed.
+* `Inheritance` : This allows a new "child" class to get features from an existing "parent" class. For example, a "Dog" class can **inherit** from a "Mammal" class, automatically getting features like having a backbone without having to be reprogrammed.
 
-* `**Abstraction**` : This is about hiding the complex details and showing only what is necessary. When you drive a car, you use the steering wheel and pedals without needing to know how the engine works. That's abstraction at play.
-* `**Polymorphism**` : This means "many forms." It allows a single action to be done in different ways.
+* `Abstraction` : This is about hiding the complex details and showing only what is necessary. When you drive a car, you use the steering wheel and pedals without needing to know how the engine works. That's abstraction at play.
+
+* `Polymorphism` : This means "many forms." It allows a single action to be done in different ways.
 
     For example, a `draw()` method could draw a circle, a square, or a triangle depending on the object it's being used on.
 
@@ -29,9 +30,9 @@ Java is a platform-independent language because of its "write once, run anywhere
 
 Most programming languages compile their code directly into machine code, which is specific to a particular operating system and processor. Java, however, uses a two-step process:
 
-1.  `**Compilation to Bytecode**`: When you write and compile a Java program, the Java compiler (`javac`) doesn't create platform-specific machine code. Instead, it generates a universal, platform-neutral intermediate code called **bytecode**. This bytecode (`.class` file) is the same no matter what operating system you used to write the code.
+1.  `Compilation to Bytecode`: When you write and compile a Java program, the Java compiler (`javac`) doesn't create platform-specific machine code. Instead, it generates a universal, platform-neutral intermediate code called **bytecode**. This bytecode (`.class` file) is the same no matter what operating system you used to write the code.
 
-2.  `**Execution via JVM**` : To run the bytecode, you need a **Java Virtual Machine (JVM)**. The JVM is a software layer that acts as an interpreter. It takes the platform-independent bytecode and translates it into the specific machine code for the operating system it's running on (e.g., Windows, macOS, or Linux).
+2.  `Execution via JVM` : To run the bytecode, you need a **Java Virtual Machine (JVM)**. The JVM is a software layer that acts as an interpreter. It takes the platform-independent bytecode and translates it into the specific machine code for the operating system it's running on (e.g., Windows, macOS, or Linux).
 ---
 
 ### The Role of the JVM
