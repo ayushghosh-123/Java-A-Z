@@ -128,11 +128,11 @@ The `new` keyword in Java is an operator used to **create an object** from a cla
 
 The `new` keyword performs three main actions in a single expression:
 
-1.  `**Memory Allocation**`: It allocates the required amount of memory on the heap for the new object. This memory space will store the object's instance variables.
+1.  `Memory Allocation`: It allocates the required amount of memory on the heap for the new object. This memory space will store the object's instance variables.
 
-2.  `**Constructor Call**` : After allocating memory, the `new` keyword calls the class's constructor. The constructor's job is to initialize the object's `instance variables` with their default values or with the values provided in the constructor's arguments.
+2.  `Constructor Call` : After allocating memory, the `new` keyword calls the class's constructor. The constructor's job is to initialize the object's `instance variables` with their default values or with the values provided in the constructor's arguments.
 
-3.  ``**Reference Return**`: The `new` operator returns the memory address (a reference) of the newly created object. This reference can then be assigned to a variable of the class type.
+3.  `Reference Return`: The `new` operator returns the memory address (a reference) of the newly created object. This reference can then be assigned to a variable of the class type.
 
 ### Example
 
