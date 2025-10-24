@@ -1,5 +1,5 @@
 # java (a-z series)
-it have cover all  topics  of java Journey 
+it have cover all  topics  of java Journey . plese show this repo 
 
 ##  OOPS
 
