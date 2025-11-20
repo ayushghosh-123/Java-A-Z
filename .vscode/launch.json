@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Four",
+            "request": "launch",
+            "mainClass": "Four",
+            "projectName": "Java-A-Z_3ead034"
+        },
+        {
+            "type": "java",
+            "name": "Third",
+            "request": "launch",
+            "mainClass": "Third",
+            "projectName": "Java-A-Z_3ead034"
+        },
+        {
+            "type": "java",
+            "name": "Introduction",
+            "request": "launch",
+            "mainClass": "Introduction",
+            "projectName": "Java-A-Z_3ead034"
+        },
+        {
+            "type": "java",
+            "name": "Second",
+            "request": "launch",
+            "mainClass": "Second",
+            "projectName": "Java-A-Z_3ead034"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Java-A-Z_3ead034"
+        },
+        {
+            "type": "java",
             "name": "man",
             "request": "launch",
             "mainClass": "javastatic.man",

@@ -8,8 +8,7 @@ It defines data members (variables) and methods (functions) that describe the st
 1. A class is declared using the class keyword.
 2. It can contain: variable , function , constructor
 3. Objects are created from a class using the new keyword.
-
-4.It is didn't occcupy the memory
+4. It is didn't occupy the memory
 
 🚀 Code -
 ---
