@@ -23,13 +23,11 @@ public class Four {
         switch (choice) {
 
             case 1:
-                // Reverse string
                 String rev = new StringBuilder(str).reverse().toString();
                 System.out.println("Reversed String: " + rev);
                 break;
 
             case 2:
-                // Substring based on user input
                 System.out.print("Enter start index: ");
                 int start = sc.nextInt();
                 System.out.print("Enter end index: ");
@@ -43,12 +41,10 @@ public class Four {
                 break;
 
             case 3:
-                // String length
                 System.out.println("String Length: " + str.length());
                 break;
 
             case 4:
-                // Character at index 5
                 if (str.length() > 5) {
                     System.out.println("Character at index 5: " + str.charAt(5));
                 } else {
@@ -57,7 +53,6 @@ public class Four {
                 break;
 
             case 5:
-                // Search a word using indexOf
                 System.out.print("Enter the word to search: ");
                 String word = sc.nextLine();
 
